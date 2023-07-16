@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+}
+
+header{
+width: 100%;
+height: 100vh;
+background:url(banner.jpg);
+background-position: center;
+background-repeat: no-repeat;
+padding-top: 40px;
+position: relative;
+}
+#head-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#head-nav h1{
+    color: white;
+    margin-left: 30px;
+}
+#head-nav ul{
+    display: flex;
+    margin-right:50px ;
+}
+#head-nav ul li{
+    margin-left: 40px;
+}
+#head-nav ul li a{
+   font-size: 22px;
+   opacity: 0.8;
+}
+#head-nav ul li a:hover{
+    transition: 0.3s;
+    opacity: 1;
+ }
+header div{
+position: absolute;
+top: 40%;
+left: 25%;
+text-align: center;
+}
+header div h2{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+header div p {
+    color: gray;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 35px;
+}
+header div a{
+  font-size: 25px;
+  padding: 25px 20px;
+  background-color: rgb(237, 75, 75);
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 22px;
+  transition:  0.5s linear;
+}
+header div a:hover{
+    background-color: rgb(161, 44, 44);
+    
+  }
+
+  #s-one{
+    height: 450px;
+    width: 100%;
+
+    display: flex;
+    justify-content:center;
+     padding-top: 70px;
+  }
+  .d-one{
+    width: 35%;
+  }
+
+#d-one h2{
+    font-size: 40px;
+    line-height: 60px;
+}
+#d-one p{
+    font-size: 22px;
+    line-height: 35px;
+    color: gray;
+}
+#d-onet p{
+color: gray;
+line-height: 22px;
+letter-spacing: 2px;
+}
+#s-two{
+background-color: rgb(213, 209, 209);
+padding-bottom: 75px;
+padding-top: 50px;
+}
+ 
+#s-two h1{
+text-align: center;
+margin-bottom: 30px;
+font-size: 40px;
+}
+#s-two > p{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 22px;
+}
+#d-two{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.d-t{
+  border: 1px solid gray;
+  text-align: center;
+  background-color: white;
+}
+.d-t p{
+padding: 30px 0;
+font-size: 22px;
+}
+.dta{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 50px;
+    
+}
+
+#two-a{
+
+padding: 20px 35px;
+background-color: rgb(235, 43, 43);
+font-size:22px;
+}
+#two-aa{
+     padding: 20px 35px;
+    background-color: rgb(29, 28, 28);
+    font-size: 20px;
+    
+}
+
+#d-tr1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    gap: 27px;
+}
+#d-tr1a{
+    display: flex;
+    text-align: right;
+    gap: 20px;
+    
+}
+.img-tr{
+    border-radius: 50%;
+    border: 4px solid gray;
+    width: 150px;
+}
+
+#d-tr1aa{
+    display: flex;
+    
+    gap: 20px;
+}
+#tr{
+    padding: 60px 45px;
+}
+#tr > h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+#tr > p{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.th{
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.ph{
+    font-size: 14px;
+    color: gray;
+    margin-bottom:30px ;
+    
+}
+.phi{
+    line-height: 25px;
+    color: gray;
+    margin-bottom: 30px;
+}
+#fr{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url(pic04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    gap: 20px;
+}
+#fr h2{
+    font-size: 40px;
+    color: white;
+}
+#fr p{
+    font-size: 20px;
+    color: gray;
+}
+#fr a{ 
+    padding: 20px 50px;
+    background-color: rgb(236, 50, 50);
+    margin-top: 20px;
+    transition: all 0.3s linear;
+}
+#fr a:hover{
+    background-color: rgb(165, 36, 36);
+}
+footer{
+    padding-top: 100px; 
+    padding-bottom: 140px;
+}
+.d-foot{
+    display: flex;
+    justify-content: center;
+    
+    gap: 40px;
+    margin-bottom: 40px;
+   
+}
+.d-foott{
+    display: flex;
+    justify-content: center;
+}
+footer ul{
+    display: flex;
+    
+}
+footer  ul li{
+    font-size: 22px;
+    color: gray;
+    padding: 0 30px;
+}
+.ç{
+    border-right: 2px solid gray;
+}
+
